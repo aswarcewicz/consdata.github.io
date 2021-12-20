@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator>
+  <link href="https://blog.consdata.tech/en/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://blog.consdata.tech/en/" rel="alternate" type="text/html" />
+  <updated>2021-12-20T02:37:14-06:00</updated>
+  <id>https://blog.consdata.tech/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Consdata - blog techniczny | </title>
+  
+
+  
+
+  
+
+  
+  
+  
+    <entry xml:lang="pl">
+      <title type="html">Frontend Developer</title>
+      <link href="https://blog.consdata.tech/en/2021/12/16/frontend-developer.html" rel="alternate" type="text/html" title="Frontend Developer" />
+      <published>2021-12-16T01:00:00-06:00</published>
+      <updated>2021-12-16T01:00:00-06:00</updated>
+      <id>https://blog.consdata.tech/2021/12/16/frontend-developer</id>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Grzegorz Lipecki</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="frontend" />
+      
+        <category term="pogadajmy" />
+      
+
+      
+        <summary type="html">Ostatnio ktoś mnie zapytał o naszą ofertę na Frontend Developera słowami “To co, robicie stronki?”.</summary>
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.consdata.tech/assets/img/posts/2021-12-17-frontend-developer/frontend.webp" />
+      
+    </entry>
+  
+    <entry xml:lang="pl">
+      <title type="html">Czy wiesz czym różnią się json i jsonb w PostgreSQL?</title>
+      <link href="https://blog.consdata.tech/en/2021/12/07/json-vs-jsonb-postgresql.html" rel="alternate" type="text/html" title="Czy wiesz czym różnią się json i jsonb w PostgreSQL?" />
+      <published>2021-12-07T01:00:00-06:00</published>
+      <updated>2021-12-07T01:00:00-06:00</updated>
+      <id>https://blog.consdata.tech/2021/12/07/json-vs-jsonb-postgresql</id>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Katarzyna Kur</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="PostgreSQL" />
+      
+
+      
+        <summary type="html">Podstawowe różnice</summary>
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.consdata.tech/assets/img/posts/2021-11-23-json-vs-jsonb-postgresql/json.jpg" />
+      
+    </entry>
+  
+    <entry xml:lang="pl">
+      <title type="html">Czy wiesz, czym jest Shadow DOM?</title>
+      <link href="https://blog.consdata.tech/en/2021/11/16/shadow-dom.html" rel="alternate" type="text/html" title="Czy wiesz, czym jest Shadow DOM?" />
+      <published>2021-11-16T01:00:00-06:00</published>
+      <updated>2021-11-16T01:00:00-06:00</updated>
+      <id>https://blog.consdata.tech/2021/11/16/shadow-dom</id>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Piotr Grobelny</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="javascript" />
+      
+
+      
+        <summary type="html">Pewnie czytając o Web Componentach dane było Ci słyszeć o Shadow DOM. Pozwala on na przyczepienie się do istniejących elementów DOM (które stają się Shadow Hostem) i wyjście z nich z nowym drzewem DOM.</summary>
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.consdata.tech/assets/img/posts/2021-09-01-shadow-dom/shadow.webp" />
+      
+    </entry>
+  
+    <entry xml:lang="pl">
+      <title type="html">Czy wiesz, jak działa Bucket Pattern w MongoDB i czemu sprawdził się w implementacji IoT Boscha albo w apkach bankowych?</title>
+      <link href="https://blog.consdata.tech/en/2021/11/08/bucket-pattern.html" rel="alternate" type="text/html" title="Czy wiesz, jak działa Bucket Pattern w MongoDB i czemu sprawdził się w implementacji IoT Boscha albo w apkach bankowych?" />
+      <published>2021-11-08T01:00:00-06:00</published>
+      <updated>2021-11-08T01:00:00-06:00</updated>
+      <id>https://blog.consdata.tech/2021/11/08/bucket-pattern</id>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Barbara Mitan</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="mongoDB" />
+      
+
+      
+        <summary type="html">Największe korzyści z używania odpowiedniego wzorca grupowania danych, czyli Bucket Pattern w MongoDB, to m.in. zwiększenie wydajności indeksów czy uproszczenie zapytań. Przeczytaj jak to wszystko zrealizować.</summary>
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.consdata.tech/assets/img/posts/2021-09-16-bucket-pattern/bucket.jpeg" />
+      
+    </entry>
+  
+    <entry xml:lang="pl">
+      <title type="html">Zarządzanie stanem aplikacji frontendowej na przykładzie NgRx</title>
+      <link href="https://blog.consdata.tech/en/2021/10/13/zarzadzanie-stanem-aplikacji-frontendowej.html" rel="alternate" type="text/html" title="Zarządzanie stanem aplikacji frontendowej na przykładzie NgRx" />
+      <published>2021-10-13T00:00:00-05:00</published>
+      <updated>2021-10-13T00:00:00-05:00</updated>
+      <id>https://blog.consdata.tech/2021/10/13/zarzadzanie-stanem-aplikacji-frontendowej</id>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Marcin Chrapkowicz</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="frontend" />
+      
+        <category term="redux" />
+      
+        <category term="state management" />
+      
+        <category term="zarządzanie stanem" />
+      
+        <category term="store" />
+      
+        <category term="reducer" />
+      
+        <category term="action" />
+      
+        <category term="effect" />
+      
+        <category term="angular" />
+      
+        <category term="react" />
+      
+
+      
+        <summary type="html">W miarę rozwijania złożonych aplikacji webowych ważnym i nieoczywistym zagadnieniem staje się projektowanie przepływu informacji pomiędzy komponentami. Często mamy do czynienia z wieloma źródłami danych. Mogą to być na przykład najróżniejsze zewnętrzne serwisy czy interakcje użytkownika z systemem. Nierzadko dane z tych źródeł potrzebne są w różnych obszarach aplikacji, wpływają na wiele aspektów jej działania czy wyglądu. W związku z powyższym muszą zostać rozpropagowane do miejsc, w których zostaną użyte. Można się jednak zastanowić, czy “przepychanie” parametrów po całej aplikacji jest szczytem naszych możliwości. W przypadku rozbudowanych projektów jest to dość żmudne zadanie, a w efekcie bardzo szybko może zabałaganić nasz kod, pomieszać orkiestrację z prezentacją, nie wspominając już o wprowadzeniu trudności w testowaniu logiki opartej o przekazywane dane.</summary>
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.consdata.tech/assets/img/posts/2021-09-31-zarzadzanie-stanem-aplikacji-frontendowej/ngrx.jpeg" />
+      
+    </entry>
+  
+    <entry xml:lang="en">
+      <title type="html">Reliable event delivery in Apache Kafka based on retry and DLQ</title>
+      <link href="https://blog.consdata.tech/en/2021/09/13/kafka-retry-dlq.html" rel="alternate" type="text/html" title="Reliable event delivery in Apache Kafka based on retry and DLQ" />
+      <published>2021-09-13T00:00:00-05:00</published>
+      <updated>2021-09-13T00:00:00-05:00</updated>
+      <id>https://blog.consdata.tech/2021/09/13/kafka-retry-dlq</id>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jacek Grobelny</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="kouncil" />
+      
+        <category term="programming" />
+      
+        <category term="kafka" />
+      
+        <category term="event sourcing" />
+      
+        <category term="tool" />
+      
+        <category term="dlq" />
+      
+
+      
+        <summary type="html">Any complex information system may break at some point and this is why you need to have a plan for when something goes wrong while working with one. If you are lucky, the system you have chosen will provide you with ready-made solutions to deal with emergencies but if you are unfortunate enough to have ended up working with Kafka you will have to find other ways to fix problems. In this blog post you will learn why there is no DLQ (Dead Letter Queue) in Kafka and how to handle a situation that calls for such a mechanism.</summary>
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.consdata.tech/assets/img/posts/2021-09-13-kafka-retry-dlq/kafka-retry-dlq4.png" />
+      
+    </entry>
+  
+    <entry xml:lang="en">
+      <title type="html">Event Tracking - finding a needle in a haystack</title>
+      <link href="https://blog.consdata.tech/en/2021/09/08/kouncil-event-tracking-kafka.html" rel="alternate" type="text/html" title="Event Tracking - finding a needle in a haystack" />
+      <published>2021-09-08T00:00:00-05:00</published>
+      <updated>2021-09-08T00:00:00-05:00</updated>
+      <id>https://blog.consdata.tech/2021/09/08/kouncil-event-tracking-kafka</id>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Marcin Mergo</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="kouncil" />
+      
+        <category term="kafka" />
+      
+        <category term="event tracking" />
+      
+
+      
+        <summary type="html">Systems based on Apache Kafka generally use more than one topic, with events that are part of a single process often flowing between them. In some cases the events remain unchanged but the records on consecutive topics can also be modified, e.g. by adding data that is needed at further steps of the process. Event Tracking enables monitoring and visualizing the path of a given event or process by means of Kafka topics.</summary>
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.consdata.tech/assets/img/posts/2021-09-08-kouncil-event-tracking-kafka/route.jpeg" />
+      
+    </entry>
+  
+    <entry xml:lang="en">
+      <title type="html">Kouncil - a modern Kafka frontend</title>
+      <link href="https://blog.consdata.tech/en/2021/08/30/kouncil-introduction.html" rel="alternate" type="text/html" title="Kouncil - a modern Kafka frontend" />
+      <published>2021-08-30T00:00:00-05:00</published>
+      <updated>2021-08-30T00:00:00-05:00</updated>
+      <id>https://blog.consdata.tech/2021/08/30/kouncil-introduction</id>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jacek Grobelny</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="kouncil" />
+      
+        <category term="programming" />
+      
+        <category term="kafka" />
+      
+        <category term="event sourcing" />
+      
+        <category term="tool" />
+      
+
+      
+        <summary type="html">Less than two years ago I wrote about a tool we created while developing a system based on event sourcing on Kafka. Kafka Companion is gone but this is good news because its place has been taken by Kouncil. The new version of the tool offers all the features its predecessor had, while introducing some new ones. In addition to the eye-catching redesign of the application, there are new features which will be described in detail in upcoming posts on this blog.</summary>
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.consdata.tech/assets/img/posts/2021-08-30-kouncil-introduction/kouncil_dashboard.png" />
+      
+    </entry>
+  
+    <entry xml:lang="pl">
+      <title type="html">Czy wiesz, że WebRTC korzysta z serwera STUN, aby umożliwić połączenie P2P?</title>
+      <link href="https://blog.consdata.tech/en/2021/08/20/stun-server.html" rel="alternate" type="text/html" title="Czy wiesz, że WebRTC korzysta z serwera STUN, aby umożliwić połączenie P2P?" />
+      <published>2021-08-20T00:00:00-05:00</published>
+      <updated>2021-08-20T00:00:00-05:00</updated>
+      <id>https://blog.consdata.tech/2021/08/20/stun-server</id>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jakub Goszczurny</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="webrtc" />
+      
+        <category term="stun" />
+      
+        <category term="p2p" />
+      
+
+      
+        <summary type="html">Czy wiesz że WebRTC korzysta z serwera STUN, aby umożliwić połączenie P2P, a w ostateczności z serwera TURN aby przepuścić ruch przez niego i umożliwić połączenie?</summary>
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.consdata.tech/assets/img/posts/2021-08-20-stun-server/handshake.jpeg" />
+      
+    </entry>
+  
+    <entry xml:lang="pl">
+      <title type="html">Czy wiesz co się dzieje, kiedy nie stawiasz średników w JS?</title>
+      <link href="https://blog.consdata.tech/en/2021/08/02/sredniki-w-js.html" rel="alternate" type="text/html" title="Czy wiesz co się dzieje, kiedy nie stawiasz średników w JS?" />
+      <published>2021-08-02T02:00:00-05:00</published>
+      <updated>2021-08-02T02:00:00-05:00</updated>
+      <id>https://blog.consdata.tech/2021/08/02/sredniki-w-js</id>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Piotr Grobelny</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="javascript" />
+      
+
+      
+        <summary type="html">Każdemu zdarza się czasem zapomnieć postawić średnika na końcu linijki. Powinny to wyłapywać reguły zawarte w narzędziach takich jak TSLint, ESList, lecz czasami mimo ich pomocy zapominamy o tym. I co wtedy? Niby nic się nie dzieje, a kod dalej działa według naszej myśli, tylko dlaczego z jakiegoś powodu wszyscy każą stawiać te średniki?</summary>
+      
+
+      
+      
+        
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.consdata.tech/assets/img/posts/2021-08-02-sredniki-w-js/semicolon.jpg" />
+      
+    </entry>
+  
+</feed>

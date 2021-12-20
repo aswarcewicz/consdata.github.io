@@ -1,0 +1,3036 @@
+<!DOCTYPE html>
+<html lang="pl">
+<script src="/js/lunr.min.js"></script><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Consdata - blog techniczny</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Consdata - blog techniczny" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://blog.consdata.tech/" />
+<meta property="og:url" content="https://blog.consdata.tech/" />
+<meta property="og:site_name" content="Consdata - blog techniczny" />
+<meta property="og:image" content="https://blog.consdata.tech/assets/img/logo_full_size.png" />
+<meta property="og:image:height" content="400" />
+<meta property="og:image:width" content="1600" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://blog.consdata.tech/assets/img/logo_full_size.png" />
+<meta property="twitter:title" content="Consdata - blog techniczny" />
+<script type="application/ld+json">
+{"@type":"WebSite","url":"https://blog.consdata.tech/","image":{"width":1600,"height":400,"url":"https://blog.consdata.tech/assets/img/logo_full_size.png","@type":"imageObject"},"headline":"Consdata - blog techniczny","name":"Consdata - blog techniczny","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,700,600,500,300,200,100,800,900" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,600,500,300,200,100,800,900" rel="stylesheet" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://blog.consdata.tech/feed.xml" title="Consdata - blog techniczny" /><script async src="https://www.googletagmanager.com/gtag/js?id=UA-28387432-1"></script>
+<script>
+    window['ga-disable-UA-28387432-1'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-28387432-1');
+</script>
+
+
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>---
+---
+<nav class="site-header">
+    <div class="container">
+        <div class="header navbar-default" role="navigation">
+            <div class="header-brand">
+                <div class="nav navbar-nav">
+                    <div class="nav-link"><a href="/">BLOG.CONSDATA.TECH</a></div>
+                </div>
+
+                <div class="mobile-search">
+                    
+<form action="/search.html" method="get">
+
+    <div class="search-input-container">
+        <input type="text" placeholder="Szukaj..." id="search-box-mobile" name="query" class="search-input" autocomplete="off">
+        <i class="fa fa-search search-icon" onclick="expandInputMobile()"></i>
+    </div>
+</form>
+
+<script>
+    const inputMobile = document.getElementById("search-box-mobile");
+    const logo = document.getElementById("header-logo");
+    const expandInputMobile = () => {
+        inputMobile.classList.toggle("expanded");
+        logo.classList.toggle("header-logo");
+        logo.classList.toggle("logo-invisible");
+    };
+</script>
+
+                </div>
+            </div>
+            <div id="header-links" class="mobile-nav">
+                <a class="header-logo" href="https://consdata.com/pl">
+                    <img src="/assets/img/logo-nowe.png" alt="consdata.com">
+                </a>
+                <div class="feed-subscribe">
+                    <a href="/feed.xml">
+                    <svg class="svg-icon">
+                        <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+                    </svg>
+                    </a>
+                </div>
+                
+                    
+                        <a class="language-switch" onclick="navigate('/en/')">EN</a>
+                    
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+<script>
+    function navigate(baseUrl) {
+        const queryParams = window.location.search;
+        window.location.href = baseUrl + queryParams;
+    }
+</script>
+
+
+
+
+
+<div class="navigation-bar">
+    <div class="row">
+        <div class="col-15 desktop-navbar">
+            <div class="col-2-3 navbar-links">
+                <div class="navigation-tags">
+                    
+                        
+                        <a href="/search.html?query=java">
+                        
+                        JAVA
+                        </a>
+                    
+                        
+                        <a href="/search.html?query=programming">
+                        
+                        PROGRAMMING
+                        </a>
+                    
+                        
+                        <a href="/search.html?query=frontend">
+                        
+                        FRONTEND
+                        </a>
+                    
+                        
+                        <a href="/search.html?query=event sourcing">
+                        
+                        EVENT SOURCING
+                        </a>
+                    
+                        
+                        <a href="/search.html?query=kafka">
+                        
+                        KAFKA
+                        </a>
+                    
+                </div>
+                
+<form action="/search.html" method="get">
+
+    <div class="search-input-container">
+        <input type="text" placeholder="Szukaj..." id="search-box" name="query" class="search-input" autocomplete="off">
+        <i class="fa fa-search search-icon" onclick="expandInputDesktop()"></i>
+    </div>
+</form>
+
+<script>
+    const inputDesktop = document.getElementById("search-box");
+    const expandInputDesktop = () => {
+        inputDesktop.classList.toggle("expanded");
+    };
+</script>
+
+            </div>
+            <div class="col-1-3">
+                <a href="https://app2.salesmanago.pl/mscf/e7yrrpjmxbm7bahc/default/Landing_page_newsletter_techniczny.htm"
+                   class="newsletter-link">
+                    <div class="newsletter-button">
+                        Zapisz się na newsletter techniczny
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-15 mobile-navbar">
+            <div class="navigation-tags">
+                
+                
+                    <a href="/search.html?query=java">
+                        
+                        JAVA
+                    </a>
+                    
+                
+                    <a href="/search.html?query=programming">
+                        
+                        PROGRAMMING
+                    </a>
+                    
+                
+                    <a href="/search.html?query=frontend">
+                        
+                        FRONTEND
+                    </a>
+                    
+                
+                    <a href="/search.html?query=event sourcing">
+                        
+                        EVENT SOURCING
+                    </a>
+                    
+                
+                    <a href="/search.html?query=kafka">
+                        
+                        KAFKA
+                    </a>
+                    
+            </div>
+            <a href="https://app2.salesmanago.pl/mscf/e7yrrpjmxbm7bahc/default/Landing_page_newsletter_techniczny.htm"
+               class="newsletter-link">
+                <div class="newsletter-button">Zapisz się na newsletter techniczny</div>
+            </a>
+        </div>
+    </div>
+</div>
+<main class="page-content" aria-label="Content">
+    <div class="home">
+    <div class="blog">
+        <div class="row first-row">
+            
+            
+<div class="col-15 post-animation">
+    <div class="col-2-3 ">
+        <a href="/2021/12/16/frontend-developer.html">
+            <img class="highlight-image" src="/assets/img/posts/2021-12-17-frontend-developer/frontend.webp"
+                 alt="postimage"/>
+        </a>
+    </div>
+    <div class="col-1-3 big-post-tile-content">
+        
+        <a href="/2021/12/16/frontend-developer.html">
+            <p class="post-title no-breaking-word">
+                Frontend Developer
+            </p>
+            <p class="post-description no-breaking-word">
+                
+                    Czy Frontend Developer w Consdata robi stronki? Przeczytaj kim jest, czym się zajmuje i jak doszliśmy do obecnego kształtu tej roli. W bonusie krótki przegląd naszych projektów i opowieść dlaczego mamy frontendowca obok full-stacka?! 🙂
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/glipecki.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/glipecki.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/glipecki.html" class="author-name">Grzegorz Lipecki</a>
+                <span>
+16
+
+grudnia
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+        
+        <div class="row">
+            
+            
+            
+
+<div class="col-5 post-tile  post-tile-did-you-know ">
+    <a href="/2021/12/07/json-vs-jsonb-postgresql.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-11-23-json-vs-jsonb-postgresql/json.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/12/07/json-vs-jsonb-postgresql.html">
+            <p class="post-title no-breaking-word"> Czy wiesz czym różnią się json i jsonb w PostgreSQL? </p>
+            <p class="post-description no-breaking-word">
+                
+                    Podstawowe różnice Podstawową różnicą pomiędzy json a jsonb jest sposób ich przechowywania. Typ json jest przechowywany jako tekst, natomiast typ...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/kkur.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/kkur.png" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/kkur.html" class="author-name">Katarzyna Kur</a>
+                <span>
+7
+
+grudnia
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile  post-tile-did-you-know ">
+    <a href="/2021/11/16/shadow-dom.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-09-01-shadow-dom/shadow.webp" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/11/16/shadow-dom.html">
+            <p class="post-title no-breaking-word"> Czy wiesz, czym jest Shadow DOM? </p>
+            <p class="post-description no-breaking-word">
+                
+                    Pewnie czytając o Web Componentach dane było Ci słyszeć o Shadow DOM. Pozwala on na przyczepienie się do istniejących elementów...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/pgrobelny.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/pgrobelny.webp" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/pgrobelny.html" class="author-name">Piotr Grobelny</a>
+                <span>
+16
+
+listopada
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile  post-tile-did-you-know ">
+    <a href="/2021/11/08/bucket-pattern.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-09-16-bucket-pattern/bucket.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/11/08/bucket-pattern.html">
+            <p class="post-title no-breaking-word"> Czy wiesz, jak działa Bucket Pattern w MongoDB i czemu sprawdził się w implementacji IoT Boscha albo w apkach bankowych? </p>
+            <p class="post-description no-breaking-word">
+                
+                    Największe korzyści z używania odpowiedniego wzorca grupowania danych, czyli Bucket Pattern w MongoDB, to m.in. zwiększenie wydajności indeksów czy uproszczenie zapytań. Przeczytaj jak to wszystko zrealizować.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/bmitan.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/bmitan.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/bmitan.html" class="author-name">Barbara Mitan</a>
+                <span>
+8
+
+listopada
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2021/10/13/zarzadzanie-stanem-aplikacji-frontendowej.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-09-31-zarzadzanie-stanem-aplikacji-frontendowej/ngrx.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/10/13/zarzadzanie-stanem-aplikacji-frontendowej.html">
+            <p class="post-title no-breaking-word"> Zarządzanie stanem aplikacji frontendowej na przykładzie NgRx </p>
+            <p class="post-description no-breaking-word">
+                
+                    W miarę rozwijania złożonych aplikacji webowych ważnym i nieoczywistym zagadnieniem staje się projektowanie przepływu informacji pomiędzy komponentami. W tym artykule poznamy jedną z implementacji architektury Redux wykorzystującej koncepcję globalnego stanu...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mchrapkowicz.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mchrapkowicz.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mchrapkowicz.html" class="author-name">Marcin Chrapkowicz</a>
+                <span>
+13
+
+października
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2021/09/13/kafka-retry-dlq.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-09-13-kafka-retry-dlq/kafka-retry-dlq4.png" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/09/13/kafka-retry-dlq.html">
+            <p class="post-title no-breaking-word"> Niezawodne dostarczanie zdarzeń w Apache Kafka oparte o ponawianie i DLQ </p>
+            <p class="post-description no-breaking-word">
+                
+                    Dlaczego w Kafce nie ma DLQ? Zacznijmy zatem od odpowiedzi na pytanie. Większość popularnych systemów kolejkowych takich jak RabbitMQ czy ActiveMQ ma wbudowane systemy odpowiedzialne za niezawodne dostarczanie komunikatów. Dlaczego...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/jgrobelny.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/jgrobelny.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/jgrobelny.html" class="author-name">Jacek Grobelny</a>
+                <span>
+13
+
+września
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2021/09/08/kouncil-event-tracking-kafka.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-09-08-kouncil-event-tracking-kafka/route.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/09/08/kouncil-event-tracking-kafka.html">
+            <p class="post-title no-breaking-word"> Event Tracking, czyli jak znaleźć igłę w stogu siana </p>
+            <p class="post-description no-breaking-word">
+                
+                    Event tracking pozwala na prześledzenie oraz wizualizację drogi danego eventu, czy też procesu, przez topiki na Kafce.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mmergo.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mmergo.webp" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mmergo.html" class="author-name">Marcin Mergo</a>
+                <span>
+8
+
+września
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2021/08/30/kouncil-introduction.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-08-30-kouncil-introduction/kouncil_dashboard.png" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/08/30/kouncil-introduction.html">
+            <p class="post-title no-breaking-word"> Kouncil - nowoczesny frontend do Kafki </p>
+            <p class="post-description no-breaking-word">
+                
+                    Kouncil to nowoczesny frontend do Kafki, wyposażony w wiele niezbędnych programiście funkcjonalności.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/jgrobelny.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/jgrobelny.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/jgrobelny.html" class="author-name">Jacek Grobelny</a>
+                <span>
+30
+
+sierpnia
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile  post-tile-did-you-know ">
+    <a href="/2021/08/20/stun-server.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-08-20-stun-server/handshake.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/08/20/stun-server.html">
+            <p class="post-title no-breaking-word"> Czy wiesz, że WebRTC korzysta z serwera STUN, aby umożliwić połączenie P2P? </p>
+            <p class="post-description no-breaking-word">
+                
+                    Czy wiesz że WebRTC korzysta z serwera STUN, aby umożliwić połączenie P2P, a w ostateczności z serwera TURN aby przepuścić...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/jgoszczurny.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/jgoszczurny.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/jgoszczurny.html" class="author-name">Jakub Goszczurny</a>
+                <span>
+20
+
+sierpnia
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile  post-tile-did-you-know ">
+    <a href="/2021/08/02/sredniki-w-js.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-08-02-sredniki-w-js/semicolon.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/08/02/sredniki-w-js.html">
+            <p class="post-title no-breaking-word"> Czy wiesz co się dzieje, kiedy nie stawiasz średników w JS? </p>
+            <p class="post-description no-breaking-word">
+                
+                    Każdemu zdarza się czasem zapomnieć postawić średnika na końcu linijki. Powinny to wyłapywać reguły zawarte w narzędziach takich jak TSLint,...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/pgrobelny.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/pgrobelny.webp" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/pgrobelny.html" class="author-name">Piotr Grobelny</a>
+                <span>
+2
+
+sierpnia
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2021/07/16/zarzadzanie-dostepem-przy-uzyciu-access-control-list.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-07-16-zarzadzanie-dostepem-przy-uzyciu-access-control-list/acl.png" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/07/16/zarzadzanie-dostepem-przy-uzyciu-access-control-list.html">
+            <p class="post-title no-breaking-word"> Zarządzanie dostępem przy użyciu ACL (Access Control List) </p>
+            <p class="post-description no-breaking-word">
+                
+                    Tym artykułem chciałbym zwrócić uwagę na obecność gotowej implementacji Access Control List oraz jaki konkretny problem rozwiązuje. Warto skorzystać z gotowych i dojrzałych rozwiązań, takich jak, Spring Security ACL, gdyż...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/pwalaszek.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/pwalaszek.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/pwalaszek.html" class="author-name">Paweł Walaszek</a>
+                <span>
+16
+
+lipca
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile  post-tile-did-you-know ">
+    <a href="/2021/07/08/metaprogramowanie-w-javie.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-07-06-metaprogramowanie-w-javie/metaprogramowanie.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/07/08/metaprogramowanie-w-javie.html">
+            <p class="post-title no-breaking-word"> Metaprogramowanie w Javie - @Target </p>
+            <p class="post-description no-breaking-word">
+                
+                    @Target określa, w których miejscach konstruowana przez nas adnotacja może zostać użyta. Gdy zadeklarujemy, w których miejscach kodu jest możliwe użycie adnotacji, błędne jej umiejscowienie nie pozwoli na skompilowanie kodu....
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/dsurdyk.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/dsurdyk.webp" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/dsurdyk.html" class="author-name">Dominik Surdyk</a>
+                <span>
+8
+
+lipca
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile  post-tile-did-you-know ">
+    <a href="/2021/05/31/slowo-kluczowe-volatile.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-05-31-slowo-kluczowe-volatile/volatile.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/05/31/slowo-kluczowe-volatile.html">
+            <p class="post-title no-breaking-word"> Volatile nie należy się bać </p>
+            <p class="post-description no-breaking-word">
+                
+                    Słowo kluczowe volatile wydaje się jednym z najrzadziej stosowanych, ale też najbardziej tajemniczych i najsłabiej poznanych słów kluczowych w Javie. Do czego więc służy i czy jest się czego bać?...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mmergo.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mmergo.webp" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mmergo.html" class="author-name">Marcin Mergo</a>
+                <span>
+31
+
+maja
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2021/04/30/java-darmowa-czy-nie-update.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-04-25-java-darmowa-czy-nie-update/java-darmowa.png" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/04/30/java-darmowa-czy-nie-update.html">
+            <p class="post-title no-breaking-word"> Java darmowa, czy nie? - aktualizacja </p>
+            <p class="post-description no-breaking-word">
+                
+                    Microsoft dołącza do dystrybutorów JDK. To dobry moment żeby sprawdzić, jak rozwinęła się sytuacja z wydawaniem darmowych dystrybucji od czasu, kiedy Oracle zmienił tryb licencjonowania. Pisaliśmy o tym dwa lata...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/jwilczewski.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/jwilczewski.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/jwilczewski.html" class="author-name">Jakub Wilczewski</a>
+                <span>
+30
+
+kwietnia
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2021/04/16/webpack-externals-vs-bundled.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-04-16-webpack-externals-vs-bundled/scale.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/04/16/webpack-externals-vs-bundled.html">
+            <p class="post-title no-breaking-word"> Micro frontends: czy współdzielić zależności? </p>
+            <p class="post-description no-breaking-word">
+                
+                    Czy współdzielić zależności w microfrontends czy nie? Nie zawsze! Jeżeli nie natrafiłeś na problemy z rozmiarem bundli, to nie rozwiązuj teoretycznych problemów. Zanim zabierzesz się za optymalizację - oceń, co...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/glipecki.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/glipecki.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/glipecki.html" class="author-name">Grzegorz Lipecki</a>
+                <span>
+16
+
+kwietnia
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2021/04/14/wspoldzielona-biblioteka-w-jenkins-pipeline.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-04-14-wspoldzielona-biblioteka-w-jenkins-pipeline/jenkins-shard-pipeline.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/04/14/wspoldzielona-biblioteka-w-jenkins-pipeline.html">
+            <p class="post-title no-breaking-word"> Współdzielona biblioteka w Jenkins pipeline </p>
+            <p class="post-description no-breaking-word">
+                
+                    W tym artykule zapoznamy się z mechanizmem bibliotek współdzielonych (Pipeline: Shared Groovy Libraries), które stanowią zależność do szeroko stosowanej wtyczki jenkins pipeline
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/dkubiak.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/dkubiak.webp" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/dkubiak.html" class="author-name">Dawid Kubiak</a>
+                <span>
+14
+
+kwietnia
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2021/03/31/rest-api-dobre-praktyki.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-03-31-rest-api-dobre-praktyki/RESTApi.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/03/31/rest-api-dobre-praktyki.html">
+            <p class="post-title no-breaking-word"> Standard HTTP i REST - dobre i złe praktyki </p>
+            <p class="post-description no-breaking-word">
+                
+                    Jakie są częste błędy przy doborze metod HTTP? Kiedy trzymać się standardu, a kiedy może to być problemem? O czym pamiętać projektując swoje REST API
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/bmitan.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/bmitan.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/bmitan.html" class="author-name">Barbara Mitan</a>
+                <span>
+31
+
+marca
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2021/03/03/przyklad-migracji-do-chmury.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-03-03-przyklad-migracji-do-chmury/clouds.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/03/03/przyklad-migracji-do-chmury.html">
+            <p class="post-title no-breaking-word"> Migracja aplikacji do chmury Google Cloud Platform w praktyce </p>
+            <p class="post-description no-breaking-word">
+                
+                    W tym wpisie chciałbym przedstawić jak wygląda migracja do chmury Google Cloud Platform w praktyce. Na warsztat wezmę działającą aplikację demo, która w żaden sposób nie jest przystosowana do uruchomienia...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mhoja.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mhoja.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mhoja.html" class="author-name">Michał Hoja</a>
+                <span>
+3
+
+marca
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2021/02/19/wszystko-co-chcielibyscie-wiedziec-o-fontach-ale-baliscie-sie-zapytac.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-02-01-wszystko-co-chcielibyscie-wiedziec-o-fontach-ale-baliscie-sie-zapytac/thumbnail.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/02/19/wszystko-co-chcielibyscie-wiedziec-o-fontach-ale-baliscie-sie-zapytac.html">
+            <p class="post-title no-breaking-word"> Wszystko, co chcielibyście wiedzieć o fontach, ale baliście się zapytać </p>
+            <p class="post-description no-breaking-word">
+                
+                    Zacznijmy od początku. Jak poprawnie zdefiniować wielkość fontów? W większości przypadków wyboru dokonujemy pomiędzy PX, EM a REM. Przejdźmy do tego pierwszego.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/pgrobelny.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/pgrobelny.webp" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/pgrobelny.html" class="author-name">Piotr Grobelny</a>
+                <span>
+19
+
+lutego
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2021/02/10/odpowiedzi-na-pytania-cd-tech-5.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-02-10-odpowiedzi-na-pytania-cd-tech-5/lightboard.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/02/10/odpowiedzi-na-pytania-cd-tech-5.html">
+            <p class="post-title no-breaking-word"> Domain Driven Design w oparciu o Axon Framework - odpowiedzi na pytania! </p>
+            <p class="post-description no-breaking-word">
+                
+                    Zgodnie z obietnicą, przyszedł czas odpowiedzieć na pytania, które pozostały bez odpowiedzi podczas naszego minionego eventu - Consdata Tech.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mkociszewski.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mkociszewski.webp" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mkociszewski.html" class="author-name">Mateusz Kociszewski</a>
+                <span>
+10
+
+lutego
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2021/02/09/migracja-schematow-bazy-danych.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-02-09-migracja-schematow-bazy-danych/bird-migrations.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/02/09/migracja-schematow-bazy-danych.html">
+            <p class="post-title no-breaking-word"> Migracja schematów bazy danych </p>
+            <p class="post-description no-breaking-word">
+                
+                    Niemożliwe jest rozwijanie aplikacji bez równoczesnego rozwijania schematu bazy danych. Tak jak podczas rozwijania naszej aplikacji, stosujemy wzorce projektowe przy...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/jgoszczurny.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/jgoszczurny.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/jgoszczurny.html" class="author-name">Jakub Goszczurny</a>
+                <span>
+9
+
+lutego
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2021/01/11/pisanie-pluginow-do-intellij.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2021-01-11-pisanie-pluginow-do-intellij/top.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2021/01/11/pisanie-pluginow-do-intellij.html">
+            <p class="post-title no-breaking-word"> Jak napisać plugin w IntelliJ </p>
+            <p class="post-description no-breaking-word">
+                
+                    IntelliJ IDEA to obecnie jedno z popularniejszych, jeśli nie najpopularniejsze IDE dla Javy. Jedną z jego zalet jest duża baza pluginów, dostarczana przez samo JetBrains, jak i społeczność.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/bradlinski.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/bradlinski.webp" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/bradlinski.html" class="author-name">Bartosz Radliński</a>
+                <span>
+11
+
+stycznia
+
+
+
+2021
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2020/11/24/testy-e2e-cypress.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2020-11-24-testy-e2e-cypress/e2e-cypress.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2020/11/24/testy-e2e-cypress.html">
+            <p class="post-title no-breaking-word"> Testy e2e z Cypress </p>
+            <p class="post-description no-breaking-word">
+                
+                    W kwestii testów e2e, czyli takich, które sprawdzają funkcjonalność od początku do końca wezmę na warsztat całkiem młody framework - Cypress mimo że nadal dominuje Selenium.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/amarszalek.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/amarszalek.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/amarszalek.html" class="author-name">Adrian Marszałek</a>
+                <span>
+24
+
+listopada
+
+
+
+2020
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2020/11/17/processing-java-stream.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2020-11-17-java-stream-processing/waterfall-stream.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2020/11/17/processing-java-stream.html">
+            <p class="post-title no-breaking-word"> Java Stream - przetwarzanie elementów </p>
+            <p class="post-description no-breaking-word">
+                
+                    Java Stream API definiuje dwa rodzaje operacji, jakie możemy wykonać w trakcie przetwarzania strumieni, operacje pośrednie – intermediate, oraz operacje końcowe - terminal.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/tdrag.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/tdrag.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/tdrag.html" class="author-name">Tomasz Drąg</a>
+                <span>
+17
+
+listopada
+
+
+
+2020
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2020/11/04/nowa-forma-meetupu.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2020-11-04-nowa-forma-meetupu/consdata_tech_webinar.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2020/11/04/nowa-forma-meetupu.html">
+            <p class="post-title no-breaking-word"> Consdata Tech Webinar - rozmowa z Marcinem Mergo o nowej formie meetupu </p>
+            <p class="post-description no-breaking-word">
+                
+                    Consdata Tech to inicjatywa, której założeniem od początku było dzielenie się wiedzą i doświadczeniem w formie cyklicznych meetupów oraz integracja lokalnej społeczności zafascynoweanej światem Java.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mmergo.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mmergo.webp" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mmergo.html" class="author-name">Marcin Mergo</a>
+                <span>
+4
+
+listopada
+
+
+
+2020
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2020/11/03/proces-migracji-do-chmury.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2020-11-03-proces-migracji-do-chmury/clouds.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2020/11/03/proces-migracji-do-chmury.html">
+            <p class="post-title no-breaking-word"> Migracja do chmury - czyli od czego zacząć? </p>
+            <p class="post-description no-breaking-word">
+                
+                    Pierwszym z etapów migracji do chmury Google jest etap szacowania, na którym przeprowadzona zostaje dokładna analiza istniejącego systemu oraz infrastruktury.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mhoja.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mhoja.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mhoja.html" class="author-name">Michał Hoja</a>
+                <span>
+3
+
+listopada
+
+
+
+2020
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2020/10/21/modele-wdrozenia-w-chmurze.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2020-10-22-modele-wdrozenia-w-chmurze/cloud.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2020/10/21/modele-wdrozenia-w-chmurze.html">
+            <p class="post-title no-breaking-word"> W chmurze czyli jak? O możliwych kierunkach rozwoju aplikacji chmurowych </p>
+            <p class="post-description no-breaking-word">
+                
+                    Co to znaczy być w chmurze? Co to właściwie jest IaaS, PaaS, CaaS, FaaS? Jak przenieść się do chmury? Czy jestem już wystarczająco zachmurzony? Jeżeli nie znasz odpowiedzi na którekolwiek...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/glipecki.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/glipecki.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/glipecki.html" class="author-name">Grzegorz Lipecki</a>
+                <span>
+21
+
+października
+
+
+
+2020
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2020/08/27/axon-kompleksowe-testowanie-aplikacji.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2020-07-30-axon-kompleksowe-testowanie-aplikacji/axontest.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2020/08/27/axon-kompleksowe-testowanie-aplikacji.html">
+            <p class="post-title no-breaking-word"> Axon - Kompleksowe testowanie aplikacji </p>
+            <p class="post-description no-breaking-word">
+                
+                    Niniejszy artykuł jest poświęcony w pełni testom aplikacji opartej o Axona. Powszechnie wiadomo, że kod dobrze pokryty testami jest dużo bardziej podatny na rozwój - wszak nie musimy obawiać się,...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mkociszewski.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mkociszewski.webp" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mkociszewski.html" class="author-name">Mateusz Kociszewski</a>
+                <span>
+27
+
+sierpnia
+
+
+
+2020
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2020/07/08/ansible-jak-uporzadkowac-chaos.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2020-07-08-ansible-jak-uporzadkowac-chaos/chaos.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2020/07/08/ansible-jak-uporzadkowac-chaos.html">
+            <p class="post-title no-breaking-word"> Ansible - jak uporządkować chaos? </p>
+            <p class="post-description no-breaking-word">
+                
+                    Już od wczesnych lat studiów programistom wpaja się, aby dążyć do utrzymania eleganckiej i czytelnej struktury swoich aplikacji (KISS – Keep it simple, stupid). Doskonale w ten trend wpasowuje się...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/rmastalerek.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/rmastalerek.webp" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/rmastalerek.html" class="author-name">Robert Mastalerek</a>
+                <span>
+8
+
+lipca
+
+
+
+2020
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2020/06/09/microservices-on-axon.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2020-06-08-microservices-on-axon/axon.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2020/06/09/microservices-on-axon.html">
+            <p class="post-title no-breaking-word"> Mikroserwisy na Axonie </p>
+            <p class="post-description no-breaking-word">
+                
+                    Axon to framework, który czerpie garściami z Domain Driven Design (które jest poza zakresem tego wpisu), wykorzystując również nomenklaturę panującą w tym podejściu, którą także będę się posługiwał w tym...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mkociszewski.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mkociszewski.webp" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mkociszewski.html" class="author-name">Mateusz Kociszewski</a>
+                <span>
+9
+
+czerwca
+
+
+
+2020
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2020/06/01/na-co-nam-ta-chmura.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2020-06-01-na-co-nam-ta-chmura/cloud.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2020/06/01/na-co-nam-ta-chmura.html">
+            <p class="post-title no-breaking-word"> Na co nam ta chmura? </p>
+            <p class="post-description no-breaking-word">
+                
+                    W ostatnich latach bardzo dużo się dzieje w świecie Cloud Computing. Coraz częściej rezygnujemy z rozwiązań on-premise na rzecz platform chmurowych, migrujemy swoje infrastruktury do takich gigantów jak AWS, Microsoft...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mhoja.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mhoja.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mhoja.html" class="author-name">Michał Hoja</a>
+                <span>
+1
+
+czerwca
+
+
+
+2020
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2020/05/05/tworzenie-i-usuwanie-indeksow-w-bazie-mongodb-na-produkcji.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2020-05-05-tworzenie-i-usuwanie-indeksow-w-bazie-mongodb-na-produkcji/indeksy_mongo.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2020/05/05/tworzenie-i-usuwanie-indeksow-w-bazie-mongodb-na-produkcji.html">
+            <p class="post-title no-breaking-word"> Tworzenie i usuwanie indeksów w bazie MongoDB na produkcji </p>
+            <p class="post-description no-breaking-word">
+                
+                    Tworzenie oraz usuwanie indeksów, nie jest operacją trudną. MongoDB jest dokumentową bazą danych oferującą bogatą funkcjonalność i jednocześnie na tyle elastyczną, że pozwala przeprowadzać zadania administracyjne bez przerwy w działaniu....
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mgucki.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mgucki.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mgucki.html" class="author-name">Mikołaj Gucki</a>
+                <span>
+5
+
+maja
+
+
+
+2020
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2020/03/18/tomcat-model-przetwarzania-zadan.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2020-03-18-tomcat-model-przetwarzania-zadan/Tomcat.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2020/03/18/tomcat-model-przetwarzania-zadan.html">
+            <p class="post-title no-breaking-word"> Tomcat - model przetwarzania żądań </p>
+            <p class="post-description no-breaking-word">
+                
+                    Tomcat jest jednym z najpopularniejszych serwerów webowych dla aplikacji pisanych w Javie. Jest podstawowym kontenerem aplikacji springbootowych. Tworząc nowy projekt często polegamy na jego domyślnej konfiguracji.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/jwilczewski.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/jwilczewski.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/jwilczewski.html" class="author-name">Jakub Wilczewski</a>
+                <span>
+18
+
+marca
+
+
+
+2020
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2020/03/09/o-openid-connect-slow-kilka.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2020-03-09-o-openid-connect-slow-kilka/oauth.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2020/03/09/o-openid-connect-slow-kilka.html">
+            <p class="post-title no-breaking-word"> O OpenID Connect słów kilka </p>
+            <p class="post-description no-breaking-word">
+                
+                    Najpopularniejszymi standardami wykorzystywanymi do uwierzytelniania/autoryzacji są OAuth 2.0, OpenID Connect oraz SAML. O OAuth 2.0 zostało już napisanych wiele artykułów, których nie ma sensu powielać. Jednak aby przedstawić OpenID Connect,...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mhoja.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mhoja.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mhoja.html" class="author-name">Michał Hoja</a>
+                <span>
+9
+
+marca
+
+
+
+2020
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2020/02/14/angular-app-initializer.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2020-02-14-angular-app-initializer/app_initializer.png" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2020/02/14/angular-app-initializer.html">
+            <p class="post-title no-breaking-word"> Angular APP_INITIALIZER </p>
+            <p class="post-description no-breaking-word">
+                
+                    APP_INITIALIZER to wbudowany w Angulara InjectionToken. Pod InjectionToken można zarejestrować wartość, funkcję albo serwis. Token ten można wstrzyknąć do komponentu lub serwisu.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/dmejer.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/dmejer.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/dmejer.html" class="author-name">Dorian Mejer</a>
+                <span>
+14
+
+lutego
+
+
+
+2020
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2020/02/01/keycloak-user-authentication-authorization-springboot-angular.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2020-02-01-keycloak-uwierzytelnianie-autoryzacja-springboot-angular/Keycloak.png" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2020/02/01/keycloak-user-authentication-authorization-springboot-angular.html">
+            <p class="post-title no-breaking-word"> Keycloak - uwierzytelnianie i autoryzacja użytkownika w aplikacji Angular/Spring Boot </p>
+            <p class="post-description no-breaking-word">
+                
+                    Jak wykorzystać serwer Keycloak do logowania w aplikacji? Omówimy to na przykładzie gotowego projektu, który umożliwia użytkownikowi zalogowanie się do aplikacji z poziomu przeglądarki internetowej.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mhoja.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mhoja.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mhoja.html" class="author-name">Michał Hoja</a>
+                <span>
+1
+
+lutego
+
+
+
+2020
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2020/01/19/zarzadzanie-zadaniami.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2020-01-19-zarzadzanie-zadaniami/zarzadzanie_zadaniami.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2020/01/19/zarzadzanie-zadaniami.html">
+            <p class="post-title no-breaking-word"> Moje własne zadania i jak się w nich odnaleźć </p>
+            <p class="post-description no-breaking-word">
+                
+                    Większość z nas ma coś do zrobienia. Na początku owe coś jest dość ogólnie zdefiniowane, np.: “napisać wpis na bloga” czy “zaprojektować mechanizm ładowania modułów aplikacji”. Dość szybko zaczynamy rozbijać...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mstolarski.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mstolarski.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mstolarski.html" class="author-name">Michał Stolarski</a>
+                <span>
+19
+
+stycznia
+
+
+
+2020
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2020/01/09/same-site-lax-by-default.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2020-01-09-same-site-lax-by-default/samesite.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2020/01/09/same-site-lax-by-default.html">
+            <p class="post-title no-breaking-word"> SameSite=Lax by default coraz bliżej - czy jesteś gotowy? </p>
+            <p class="post-description no-breaking-word">
+                
+                    Same site cookies (First-Part-Only) to stworzony kilka lat temu mechanizm, który pozwala na zmniejszenie ryzyka ataków typu CSRF. Zapewnia on, że dane ciasteczko może być wysyłane wyłącznie z żądaniami zainicjowanymi...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mpogorzelski.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mpogorzelski.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mpogorzelski.html" class="author-name">Mateusz Pogorzelski</a>
+                <span>
+9
+
+stycznia
+
+
+
+2020
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2020/01/09/rxjs-introduction.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2020-01-09-rxjs-wstep/RxJS.png" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2020/01/09/rxjs-introduction.html">
+            <p class="post-title no-breaking-word"> RxJS z Angularem - programowanie reaktywne aplikacji frontendowej </p>
+            <p class="post-description no-breaking-word">
+                
+                    Czy wiesz jak efektywniej wykorzystać bibliotekę RxJS? Pisząc aplikacje z wykorzystaniem Angulara mamy styczność z obiektami typu Observable. Na pewno zdarzyło Ci się użyć serwisu HttpClient do pobierania danych z...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/kgabara.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/kgabara.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/kgabara.html" class="author-name">Konrad Gabara</a>
+                <span>
+9
+
+stycznia
+
+
+
+2020
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/12/19/testowanie-frontendu-asynchronicznego.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-12-20-testowanie-frontendu-asynchronicznego/testowanie-frontendu-asynch.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/12/19/testowanie-frontendu-asynchronicznego.html">
+            <p class="post-title no-breaking-word"> Testowanie frontendu - Cz. 4 Testy jednostkowe kodu działającego asynchronicznie </p>
+            <p class="post-description no-breaking-word">
+                
+                    Testy jednostkowe asynchronicznych aplikacji frontendowych często wydają się być zagadką dla developerów. Na szczęście twórcy narzędzi pomyśleli również o tym i dostarczyli nam narzędzia, które zdecydowanie ułatwiają pracę z testowaniem...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/amarszalek.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/amarszalek.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/amarszalek.html" class="author-name">Adrian Marszałek</a>
+                <span>
+19
+
+grudnia
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/12/04/testowanie-komponentow-z-inputami-i-outputami.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-12-05-testowanie-komponentow-z-inputami-i-outputami/frontend-test.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/12/04/testowanie-komponentow-z-inputami-i-outputami.html">
+            <p class="post-title no-breaking-word"> Testowanie frontendu - Cz. 3. Testowanie komponentów angularowych z inputami i outputami </p>
+            <p class="post-description no-breaking-word">
+                
+                    Czas na dawkę informacji dotyczących testowania przy użyciu Jasmine. Pora skupić się na testowaniu komponentów angularowych, a w szczególności ich wejść i wyjść. Przykłady oprzemy o aplikację, która będzie składała...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/pgrobelny.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/pgrobelny.webp" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/pgrobelny.html" class="author-name">Piotr Grobelny</a>
+                <span>
+4
+
+grudnia
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/11/28/templatowanie-jobow-jenkinsa.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-11-28-templatowanie-jobow-jenkinsa/jenkins-job.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/11/28/templatowanie-jobow-jenkinsa.html">
+            <p class="post-title no-breaking-word"> Automat dodający joby do Jenkinsa </p>
+            <p class="post-description no-breaking-word">
+                
+                    W ogarniającym nas świecie mikroserwisów skala projektów do utrzymania staje się ogromna. Każdy z tych projektów musimy przecież: zbudować, przetesować,...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/dkubiak.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/dkubiak.webp" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/dkubiak.html" class="author-name">Dawid Kubiak</a>
+                <span>
+28
+
+listopada
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/11/20/testowanie-komponentow-i-serwisow.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-11-20-testowanie-komponentow-i-serwisow/testowanie_frontendu.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/11/20/testowanie-komponentow-i-serwisow.html">
+            <p class="post-title no-breaking-word"> Testowanie frontendu - Cz. 2. Testowanie komponentów i serwisów </p>
+            <p class="post-description no-breaking-word">
+                
+                    Jeśli zastanawialiście się, jak rozpocząć testy komponentów i serwisu w przypadku kwestii dotyczącej testowania frontendu, to znak że ten wpis jest dla Was.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/kczechowski.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/kczechowski.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/kczechowski.html" class="author-name">Krzysztof Czechowski</a>
+                <span>
+20
+
+listopada
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/11/06/testowanie-frontendu-wprowadzenie-do-jasmine.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-11-06-testowanie-frontendu-wprowadzenie-do-jasmine/frontend-testing.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/11/06/testowanie-frontendu-wprowadzenie-do-jasmine.html">
+            <p class="post-title no-breaking-word"> Testowanie frontendu - Cz. 1. Wprowadzenie do Jasmine - konfiguracja i przykładowe testy </p>
+            <p class="post-description no-breaking-word">
+                
+                    Framework Jasmine jest frameworkiem służącym do testowania napisanym w duchu behaviour-driven development, nie ma dodatkowych zależności oraz, jak twierdzą twórcy, dostajemy go z bateriami, czyli powinien zawierać wszystko, co jest...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mmendlik.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mmendlik.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mmendlik.html" class="author-name">Marcin Mendlik</a>
+                <span>
+6
+
+listopada
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/10/21/batchowe-inserty-w-hibernate-droga-ku-szybkosci.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-10-21-batchowe-inserty-w-hibernate-droga-ku-szybkosci/inserty-w-hibernate.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/10/21/batchowe-inserty-w-hibernate-droga-ku-szybkosci.html">
+            <p class="post-title no-breaking-word"> Batchowe inserty w Hibernate - droga ku szybkości </p>
+            <p class="post-description no-breaking-word">
+                
+                    W tym poście powiemy o przykładowej ścieżce optymalizacji wstawiania grup rekordów do bazy danych za pomocą Hibernate’a i SpringBoota z założeniem użycia spring-boot-starter-data-jpa. Skupimy się na aspektach konfiguracyjnym i diagnostycznym...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/rrudko.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/rrudko.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/rrudko.html" class="author-name">Robert Rudko</a>
+                <span>
+21
+
+października
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/10/13/wprowadzenie-do-zed-attack-proxy.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-10-14-wprowadzenie-do-zed-attack-proxy/zed-attack-proxy.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/10/13/wprowadzenie-do-zed-attack-proxy.html">
+            <p class="post-title no-breaking-word"> Wprowadzenie do Zed Attack Proxy </p>
+            <p class="post-description no-breaking-word">
+                
+                    ZAP (Zed Attack Proxy) jest opensourcowym narzędziem tworzonym przez organizację OWASP wspomagającym testy penetracyjne, które służy do znajdowania podatności bezpieczeństwa w aplikacjach webowych. Działa na zasadzie proxy, dzięki czemu pozwala...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/amak.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/amak.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/amak.html" class="author-name">Aleksandra Mak</a>
+                <span>
+13
+
+października
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/10/03/kafka-companion.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-10-03-kafka-companion/kafka.png" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/10/03/kafka-companion.html">
+            <p class="post-title no-breaking-word"> Kafka Companion </p>
+            <p class="post-description no-breaking-word">
+                
+                    Stalo się standardem, że współczesne narzędzia i biblioteki dystrybuowane są z mniej lub bardziej zaawansowanym interfejsem graficznym. RabbitMQ, będący najpopularniejszym obecnie systemem kolejkowym, wita nas po zainstalowaniu przejrzystym i funkcjonalnym...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/jgrobelny.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/jgrobelny.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/jgrobelny.html" class="author-name">Jacek Grobelny</a>
+                <span>
+3
+
+października
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/09/16/haproxy-small-but-handy.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-09-19-haproxy-mala-rzecz-a-cieszy/haproxy.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/09/16/haproxy-small-but-handy.html">
+            <p class="post-title no-breaking-word"> Haproxy - mała rzecz, a cieszy </p>
+            <p class="post-description no-breaking-word">
+                
+                    HAProxy to pakiet wolnego oprogramowania, który najczęściej pełni rolę reverse-proxy, zapewniając load-balancing i high-availability serwerów aplikacji.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/tlewandowski.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/tlewandowski.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/tlewandowski.html" class="author-name">Tomasz Lewandowski</a>
+                <span>
+16
+
+września
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/09/05/kafka-retry-dlq.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-09-05-kafka-retry-dlq/apache-kafka.png" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/09/05/kafka-retry-dlq.html">
+            <p class="post-title no-breaking-word"> Niezawodne dostarczanie zdarzeń w Apache Kafka oparte o ponawianie i DLQ </p>
+            <p class="post-description no-breaking-word">
+                
+                    Dlaczego w Kafce nie ma DLQ? Zacznijmy zatem od odpowiedzi na pytanie. Większość popularnych systemów kolejkowych takich jak RabbitMQ czy ActiveMQ ma wbudowane systemy odpowiedzialne za niezawodne dostarczanie komunikatów. Dlaczego...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/jgrobelny.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/jgrobelny.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/jgrobelny.html" class="author-name">Jacek Grobelny</a>
+                <span>
+5
+
+września
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/08/22/view-encapsulation-w-angularze.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-08-22-view-encapsulation-w-angularze/View-Encapsulation.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/08/22/view-encapsulation-w-angularze.html">
+            <p class="post-title no-breaking-word"> View Encapsulation w Angularze - czyli o kapsułkowaniu słów kilka </p>
+            <p class="post-description no-breaking-word">
+                
+                    Tworząc komponenty w Angularze mamy możliwość zarządzania kapsułkowaniem (enkapsulacją) stylów - czyli tym jak style z jednego komponentu wpływają na inne komponenty. Zanim omówimy kapsułkowanie, wyjaśnijmy w kilku słowach czym...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mhoja.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mhoja.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mhoja.html" class="author-name">Michał Hoja</a>
+                <span>
+22
+
+sierpnia
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/08/06/angular-onpush-strategy.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-05-29-angular-onpush-strategy/angular-onpush.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/08/06/angular-onpush-strategy.html">
+            <p class="post-title no-breaking-word"> Angular - detekcja zmian strategią onPush </p>
+            <p class="post-description no-breaking-word">
+                
+                    Każda aplikacja rozwijana odpowiednio długi czas może rozrosnąć się do ogromnych rozmiarów, a konkretniej do sporej liczby komponentów, jeżeli mówimy o aplikacji frontendowej pisanej z wykorzystaniem Angulara. Z czasem przyrost...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/kgabara.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/kgabara.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/kgabara.html" class="author-name">Konrad Gabara</a>
+                <span>
+6
+
+sierpnia
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/07/26/testy-frontendu-okiem-full-stacka.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-07-25-testy-frontendu-okiem-full-stacka/testy-jednostkowe.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/07/26/testy-frontendu-okiem-full-stacka.html">
+            <p class="post-title no-breaking-word"> Testy jednostkowe frontendu okiem programisty full stack </p>
+            <p class="post-description no-breaking-word">
+                
+                    Co testować na frontendzie? Niezależnie od tego jaki framework został użyty w danym projekcie, zawsze możemy z niego wydzielić komponenty. W tym artykule jako przykład użyty został Angular.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mmendlik.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mmendlik.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mmendlik.html" class="author-name">Marcin Mendlik</a>
+                <span>
+26
+
+lipca
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/07/12/10-praw-uzytecznego-designu.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-07-12-10-praw-uzytecznego-designu/design-w-it.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/07/12/10-praw-uzytecznego-designu.html">
+            <p class="post-title no-breaking-word"> 10 praw użytecznego designu </p>
+            <p class="post-description no-breaking-word">
+                
+                    W latach 80. Dieter Rams zagubiony w chaosie form i kolorów postanowił coś z tym zrobić i opracował 10 reguł dobrego designu, które w branży zdążyły urosnąć do rangi dziesięciu...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/pswierzko.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/pswierzko.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/pswierzko.html" class="author-name">Piotr Świerzko</a>
+                <span>
+12
+
+lipca
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/05/09/node-version-menager.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-05-09-node-version-menager/Node-Version-Manager.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/05/09/node-version-menager.html">
+            <p class="post-title no-breaking-word"> Korzyści wynikające z użycia Node Version Manager </p>
+            <p class="post-description no-breaking-word">
+                
+                    JavaScript i cały ekosystem z nim związany jest bardzo rozbudowany i wydaje się, że wcale nie zamierza przestać się rozrastać. Można czasem usłyszeć, że tydzień, w którym nie powstał nowy...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/kczechowski.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/kczechowski.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/kczechowski.html" class="author-name">Krzysztof Czechowski</a>
+                <span>
+9
+
+maja
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/05/06/refactoring.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-05-06-refactoring/refactoring.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/05/06/refactoring.html">
+            <p class="post-title no-breaking-word"> Przykłady refaktoryzacji na podstawie książki Martina Fowlera i Kenta Becka 'Refactoring' </p>
+            <p class="post-description no-breaking-word">
+                
+                    Książka 'Refactoring' Martina Fowlera i Kenta Becka została po raz pierwszy wydana w 1999 roku i często określana jest jako pozycja wybitna, ponadczasowa, jako must read każdego programisty. Dodatkowo w...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/sucuncu.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/sucuncu.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/sucuncu.html" class="author-name">Sylwia Üçüncü</a>
+                <span>
+6
+
+maja
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/03/27/custom-elements.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-03-27-custom-elements/custom-elements.png" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/03/27/custom-elements.html">
+            <p class="post-title no-breaking-word"> Krótkie wprowadzenie do Custom Elements </p>
+            <p class="post-description no-breaking-word">
+                
+                    Custom element, co to takiego? Custom Elements to jedna z zestawu czterech specyfikacji występujących pod wspólną nazwą Web Components - wspólnie pozwalają one na tworzenie własnych typów elementów DOM.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mpogorzelski.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mpogorzelski.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mpogorzelski.html" class="author-name">Mateusz Pogorzelski</a>
+                <span>
+27
+
+marca
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/03/27/java-darmowa-czy-nie.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-03-22-java-darmowa-czy-nie/java-darmowa.png" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/03/27/java-darmowa-czy-nie.html">
+            <p class="post-title no-breaking-word"> Java darmowa, czy nie? </p>
+            <p class="post-description no-breaking-word">
+                
+                    End of Public Updates for Oracle JDK 8 Oracle will not post further updates of Java SE 8 to its public download sites for commercial use after January 2019. Customers...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/jwilczewski.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/jwilczewski.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/jwilczewski.html" class="author-name">Jakub Wilczewski</a>
+                <span>
+27
+
+marca
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2019/02/26/pozycjonowanie-zale-ne-od-scrolla.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2019-02-26-pozycjonowanie-zale-ne-od-scrolla/pozycjonowanie-scroll.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2019/02/26/pozycjonowanie-zale-ne-od-scrolla.html">
+            <p class="post-title no-breaking-word"> Pozycjonowanie zależne od scrolla </p>
+            <p class="post-description no-breaking-word">
+                
+                    Custom Elements to jedna z zestawu czterech specyfikacji występujących pod wspólną nazwą Web Components - wspólnie pozwalają one na tworzenie własnych typów elementów DOM.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/glipecki.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/glipecki.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/glipecki.html" class="author-name">Grzegorz Lipecki</a>
+                <span>
+26
+
+lutego
+
+
+
+2019
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2018/12/13/podsumowanie-consdata-tech-odpowiedzi-na-pytanie.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2018-12-13-podsumowanie-consdata-tech-odpowiedzi-na-pytanie/consdatatech.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2018/12/13/podsumowanie-consdata-tech-odpowiedzi-na-pytanie.html">
+            <p class="post-title no-breaking-word"> Podsumowanie Consdata Tech - odpowiedzi na pytania </p>
+            <p class="post-description no-breaking-word">
+                
+                    Czy używacie platformy Kafka Connect? Jeśli tak, czy pozwalacie connectorowi na sterowanie schematem bazy danych? Jeśli nie, jakie macie podejście do ewolucji schematów?
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mmergo.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mmergo.webp" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mmergo.html" class="author-name">Marcin Mergo</a>
+                <span>
+13
+
+grudnia
+
+
+
+2018
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2018/11/15/czy-apache-kafka-nadaje-sie-do-event-sourcingu.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2018-11-15-czy-apache-kafka-nadaje-sie-do-event-sourcingu/kafka-apache.png" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2018/11/15/czy-apache-kafka-nadaje-sie-do-event-sourcingu.html">
+            <p class="post-title no-breaking-word"> Czy Apache Kafka nadaje się do Event Sourcingu? </p>
+            <p class="post-description no-breaking-word">
+                
+                    Nietrudno jest natknąć się na głosy mówiące, że Apache Kafka nie nadaje się do implementacji wzorca, jakim jest Event Sourcing. Czy jest tak w istocie? W artykule tym postaram się...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/mmergo.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/mmergo.webp" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/mmergo.html" class="author-name">Marcin Mergo</a>
+                <span>
+15
+
+listopada
+
+
+
+2018
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2018/08/07/algorytmy-rekomendacyjne-przyklad-implementacji-w-pythonie.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2018-08-07-algorytmy-rekomendacyjne-przyklad-implementacji-w-pythonie/algorytmy-rekomendacyjne.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2018/08/07/algorytmy-rekomendacyjne-przyklad-implementacji-w-pythonie.html">
+            <p class="post-title no-breaking-word"> Algorytmy rekomendacyjne - przykład implementacji w Pythonie </p>
+            <p class="post-description no-breaking-word">
+                
+                    Systemy rekomendacyjne widzimy wszędzie tam, gdzie użytkownik ma styczność z ogromnymi katalogami danych, np. Amazon podpowiada nam, jakie produkty powinniśmy kupić, Netflix - jakie filmy oglądać, a Spotify - które...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/sucuncu.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/sucuncu.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/sucuncu.html" class="author-name">Sylwia Üçüncü</a>
+                <span>
+7
+
+sierpnia
+
+
+
+2018
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2018/04/23/practical-applications-of-webhooks.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2018-04-23-praktyczne-zastosowanie-webhook/webhook.png" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2018/04/23/practical-applications-of-webhooks.html">
+            <p class="post-title no-breaking-word"> Praktyczne zastosowanie webhook </p>
+            <p class="post-description no-breaking-word">
+                
+                    Każdy programista prędzej czy później ma do czynienia z jakąś formą API (ang. application programming interface). API to określony interfejs, którym dwie niezależne aplikacje mogą porozumiewać się między sobą. W...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/bradlinski.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/bradlinski.webp" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/bradlinski.html" class="author-name">Bartosz Radliński</a>
+                <span>
+23
+
+kwietnia
+
+
+
+2018
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2018/03/26/terraform-czyli-o-tym-jak-okielznac-chmure-od-amazona.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2018-03-26-terraform-czyli-o-tym-jak-okielznac-chmure-od-amazona/terraform.png" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2018/03/26/terraform-czyli-o-tym-jak-okielznac-chmure-od-amazona.html">
+            <p class="post-title no-breaking-word"> Terraform - czyli o tym, jak okiełznać chmurę od Amazona </p>
+            <p class="post-description no-breaking-word">
+                
+                    W przypadku pracy z kodem, potrzebujemy narzędzi automatyzujących proces tworzenia a także niszczenia zasobów AWS. Wykorzystam zatem Terraform, aby pokazać, jak można to zrobić.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/jgrobelny.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/jgrobelny.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/jgrobelny.html" class="author-name">Jacek Grobelny</a>
+                <span>
+26
+
+marca
+
+
+
+2018
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2018/02/22/monitorowanie-zespolowych-trendow-jakosci-kodu.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2018-02-22-monitorowanie-zespolowych-trendow-jakosci-kodu/monitorowanie-kodu.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2018/02/22/monitorowanie-zespolowych-trendow-jakosci-kodu.html">
+            <p class="post-title no-breaking-word"> Monitorowanie zespołowych trendów jakości kodu </p>
+            <p class="post-description no-breaking-word">
+                
+                    W jednym z wcześniejszych wpisów omawialiśmy już zalety i zasadność statycznej analizy kodu z pomocą SonarQube
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/glipecki.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/glipecki.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/glipecki.html" class="author-name">Grzegorz Lipecki</a>
+                <span>
+22
+
+lutego
+
+
+
+2018
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2018/01/17/aws-serverless-programming.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2018-01-17-aws-serverless-programming/aws.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2018/01/17/aws-serverless-programming.html">
+            <p class="post-title no-breaking-word"> AWS - serverless programming </p>
+            <p class="post-description no-breaking-word">
+                
+                    W kwestii AWS architektura serverless przenosi nas jeszcze poziom wyżej - przestajemy myśleć o maszynach wirtualnych, skupiamy się na kodzie rozwiązującym konkretne potrzeby biznesowe.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/jwilczewski.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/jwilczewski.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/jwilczewski.html" class="author-name">Jakub Wilczewski</a>
+                <span>
+17
+
+stycznia
+
+
+
+2018
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2017/12/01/monitoring-serwerow-i-uslug.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2017-12-01-monitoring-serwerow-i-uslug/monitoring-systemow.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2017/12/01/monitoring-serwerow-i-uslug.html">
+            <p class="post-title no-breaking-word"> Jak szybko stworzyć system monitoringu serwerów i usług </p>
+            <p class="post-description no-breaking-word">
+                
+                    Połączenie Grafany, jako warstwy prezentacji i ostrzegania, oraz Icingi, jako narzędzia do zbierania metryk, jest dosyć łatwym i szybkim w zestawieniu systemem do monitorowania serwerów.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/aswarcewicz.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/aswarcewicz.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/aswarcewicz.html" class="author-name">Adrian Swarcewicz</a>
+                <span>
+1
+
+grudnia
+
+
+
+2017
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2017/08/01/gatling.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2017-08-01-gatling/wydajnosc_aplikacji.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2017/08/01/gatling.html">
+            <p class="post-title no-breaking-word"> Gatling! “Odłamkowym ładuj!”, czyli jak strzelać do aplikacji </p>
+            <p class="post-description no-breaking-word">
+                
+                    Gatling zawiera masę pomocniczych poleceń. Na stronie http://gatling.io/ dostępna jest użyteczna dokumentacja, w której w przejrzysty sposób wyjaśniono dostępne funkcje.
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/bbaron.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/bbaron.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/bbaron.html" class="author-name">Błażej Baron</a>
+                <span>
+1
+
+sierpnia
+
+
+
+2017
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2017/02/17/absolutne-importowanie-zaleznosci-w-angular-cli.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2017-02-17-absolutne-importowanie-zaleznosci-w-angular-cli/angular-cli.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2017/02/17/absolutne-importowanie-zaleznosci-w-angular-cli.html">
+            <p class="post-title no-breaking-word"> Absolutne importowanie zależności w Angular CLI </p>
+            <p class="post-description no-breaking-word">
+                
+                    Odpowiedzialny programista tworząc aplikacje przestrzega powszechnie uznanych zasad tworzenia oprogramowania. Jedną z takich zasad jest Single Responsibility Principle, która uczy nas, że każdy moduł powinien mieć jedno, jasno zdefiniowane zadanie....
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/glipecki.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/glipecki.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/glipecki.html" class="author-name">Grzegorz Lipecki</a>
+                <span>
+17
+
+lutego
+
+
+
+2017
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2017/02/03/dynamiczne-dodawanie-komponentow-w-angular-2.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2017-02-03-dynamiczne-dodawanie-komponentow-w-angular-2/angular-2.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2017/02/03/dynamiczne-dodawanie-komponentow-w-angular-2.html">
+            <p class="post-title no-breaking-word"> Dynamiczne dodawanie komponentów w Angular 2 </p>
+            <p class="post-description no-breaking-word">
+                
+                    Od pewnego czasu pracuję nad świeżym projektem opartym o Angular 2. Częścią projektu jest prezentowanie użytkownikowi dynamicznie generowanych elementów interfejsu. Nie jesteśmy w stanie zaprojektować z wyprzedzeniem ekranów, nie znając...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/glipecki.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/glipecki.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/glipecki.html" class="author-name">Grzegorz Lipecki</a>
+                <span>
+3
+
+lutego
+
+
+
+2017
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2017/01/19/wireshark-czy-to-gryzie.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2017-01-19-wireshark-czy-to-gryzie/wireshark.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2017/01/19/wireshark-czy-to-gryzie.html">
+            <p class="post-title no-breaking-word"> Wireshark - czy to gryzie? </p>
+            <p class="post-description no-breaking-word">
+                
+                    Z programem Wireshark pierwszy raz zetknąłem się w czasie studiów na zajęciach z sieci komputerowych (dla niewtajemniczonych: Wireshark to aplikacja która umożliwia przechwytywanie i nagrywanie pakietów danych, a także ich...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/tlewandowski.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/tlewandowski.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/tlewandowski.html" class="author-name">Tomasz Lewandowski</a>
+                <span>
+19
+
+stycznia
+
+
+
+2017
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2017/01/05/budowanie-aplikacji-angular-cli-spring-boot.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2017-01-05-budowanie-aplikacji-angular-cli-spring-boot/angular-spring-boot.jpeg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2017/01/05/budowanie-aplikacji-angular-cli-spring-boot.html">
+            <p class="post-title no-breaking-word"> Budowanie aplikacji Angular CLI + Spring Boot </p>
+            <p class="post-description no-breaking-word">
+                
+                    Każda nietrywialna aplikacja potrzebuje backendu. O ile obecnie to nie jest prawda, to na potrzeby tego artykułu przyjmijmy, że tak jest. A jak backend współpracujący z aplikacją webową to REST,...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/glipecki.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/glipecki.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/glipecki.html" class="author-name">Grzegorz Lipecki</a>
+                <span>
+5
+
+stycznia
+
+
+
+2017
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2016/12/22/hystrix-praktyczne-uzycie-circuit-breakera.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2016-12-22-hystrix-praktyczne-uzycie-circuit-breakera/hystrix.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2016/12/22/hystrix-praktyczne-uzycie-circuit-breakera.html">
+            <p class="post-title no-breaking-word"> Hystrix - praktyczne użycie circuit breaker'a </p>
+            <p class="post-description no-breaking-word">
+                
+                    Aby dodać circuit breakera do naszej aplikacji należy dodać klasę opakowującą klienta serwisu zewnętrznego komendą hystrixową (adnotacje dostarczane są przez bibliotekę javanica).
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/jwilczewski.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/jwilczewski.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/jwilczewski.html" class="author-name">Jakub Wilczewski</a>
+                <span>
+22
+
+grudnia
+
+
+
+2016
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2016/12/08/sonarqube-wprowadzenie-do-statycznej-analizy-kodu.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2016-12-08-sonarqube-wprowadzenie-do-statycznej-analizy-kodu/sonarqube.png" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2016/12/08/sonarqube-wprowadzenie-do-statycznej-analizy-kodu.html">
+            <p class="post-title no-breaking-word"> Sonarqube - wprowadzenie do statycznej analizy kodu </p>
+            <p class="post-description no-breaking-word">
+                
+                    SonarQube, powstał jako system do integracji raportów z różnych bibliotek i wizualizacji wyników. Twórcy byli rozczarowani tempem zmian w popularnych bibliotekach statycznej analizy kodu, dlatego zaczęli na własną rękę przygotowywać...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/jgrobelny.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/jgrobelny.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/jgrobelny.html" class="author-name">Jacek Grobelny</a>
+                <span>
+8
+
+grudnia
+
+
+
+2016
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+
+<div class="col-5 post-tile ">
+    <a href="/2016/08/31/szybki-start-z-angular-cli.html">
+        <img class="highlight-image small-post-image" src="/assets/img/posts/2016-08-31-szybki-start-z-angular-cli/start_z_angularem.jpg" alt="post-image"/>
+    </a>
+    <div class="post-tile-content">
+        <a href="/2016/08/31/szybki-start-z-angular-cli.html">
+            <p class="post-title no-breaking-word"> Szybki start z Angular CLI </p>
+            <p class="post-description no-breaking-word">
+                
+                    Wydanie stabilnej wersji Angular 2 to idealny moment, żeby zacząć swoją przygodę z tym frameworkiem. Nie ma lepszego sposobu na poznanie nowej technologii niż skok na głęboką wodę i rozpoczęcie...
+                
+            </p>
+        </a>
+        <div class="tile-author">
+            <a href="/authors/glipecki.html" class="author-name">
+                <img class="small-author-image" src="/assets/img/authors/glipecki.jpg" alt="author" width="50" height="50">
+            </a>
+            <div class="post-info">
+                <a href="/authors/glipecki.html" class="author-name">Grzegorz Lipecki</a>
+                <span>
+31
+
+sierpnia
+
+
+
+2016
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+            
+            
+            
+            
+            <div class="col-5 padding-column"></div>
+            
+            <div class="col-5 padding-column"></div>
+            
+            
+        </div>
+    </div>
+</div>
+
+</main><footer>
+    <div class="container">
+        <div class="footer-item company">
+            <div class="label">
+                <img src="/assets/img/logo.png"/>
+            </div>
+            <div class="item-content">
+                <p>
+                    K9OFFICE, UL. KRYSIEWICZA 9/17<br/>
+                    61-825 POZNAŃ<br/>
+                    POLSKA
+                </p>
+                <p>
+                    TEL.:+48 61 41 51 000
+                </p>
+                <p>
+                    NIP: 1822261960<br/>
+                    REGON: 634422180
+                </p>
+            </div>
+        </div>
+        <div class="footer-item legals">
+            <div class="label">
+                
+            </div>
+            <div class="item-content">
+                <p>
+                    <a href="https://consdata.com/pl/polityka-prywatnosci" target="_blank"> </a>
+                </p>
+            </div>
+        </div>
+        <div class="footer-item social-buttons">
+            <div class="label">
+                
+            </div>
+            <div class="item-content">
+                <div class="social-buttons-container">
+                    <div class="social-button-wrapper">
+                        <a class="social-btn" target="_blank" href="https://www.facebook.com/consdatacom"
+                           title="Facebook">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </div>
+                    <div class="social-button-wrapper">
+                        <a class="social-btn" target="_blank"
+                           href="https://www.youtube.com/channel/UCv4d_uCiLdDkOFk8NtDsU_w" title="Youtube">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                    </div>
+                    <div class="social-button-wrapper">
+                        <a class="social-btn" target="_blank" href="https://www.linkedin.com/company/1456906"
+                           title="Linkedin">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        Copyrights © 2021 CONSDATA
+    </div>
+</footer>
+<div class="cookie-notice" id="cookie-notice">
+    <span>
+        
+        Chcemy używać plików cookie oraz skryptów podmiotów trzecich do polepszania funkcjonowania tej strony
+    </span>
+    <a id="cookie-notice-accept" class="consent-button">Zgadzam się</a>
+    <i onclick="hideConsent()" class="close-consent fa fa-times close"></i>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=300808861525851&ev=PageView&noscript=1"
+    /></noscript>
+</div>
+
+<script>
+    function createCookie(name, value, days) {
+        let expires = "";
+        if (days) {
+            const date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+
+    function readCookie(name) {
+        const nameEQ = name + "=";
+        const ca = document.cookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+
+    function eraseCookie(name) {
+        createCookie(name, "", -1);
+    }
+
+    function hideConsent() {
+        document.getElementById('cookie-notice').style.display = 'none';
+    }
+
+    if (readCookie('cookie-notice-dismissed') === 'true') {!function (f, b, e, v, n, t, s) {
+    if (f.fbq) return;
+    n = f.fbq = function () {
+        n.callMethod ?
+            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+    };
+    if (!f._fbq) f._fbq = n;
+    n.push = n;
+    n.loaded = !0;
+    n.version = '2.0';
+    n.queue = [];
+    t = b.createElement(e);
+    t.async = !0;
+    t.src = v;
+    s = b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t, s)
+}(window, document, 'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '300808861525851');
+fbq('track', 'PageView');
+} else {
+        document.getElementById('cookie-notice').style.display = 'flex';
+    }
+
+    document.getElementById('cookie-notice-accept').addEventListener("click", function () {
+        createCookie('cookie-notice-dismissed', 'true', 31);
+        hideConsent();
+        location.reload();
+    });
+</script>
+
+</body>
+</html>
